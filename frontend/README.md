@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+# Portfólio - Kauã Klein
+# ACESSE HOSPEDADO JÁ: https://portfolioo-nine-phi.vercel.app/
+![Portfolio Preview](./public/preview.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Sobre o Projeto
 
-Currently, two official plugins are available:
+Este é meu portfólio pessoal, desenvolvido para apresentar meus projetos e habilidades como Desenvolvedor Full Stack. O site foi construído com foco em design moderno, responsividade e experiência do usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## React Compiler
+- **Design Moderno**: Interface escura com detalhes em vermelho para melhor experiência visual
+- **Totalmente Responsivo**: Adaptável a diferentes tamanhos de tela
+- **Projetos em Destaque**: Showcase dos principais projetos com descrições detalhadas
+- **Navegação Intuitiva**: Menu lateral para fácil acesso a todas as seções
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend**:
+  - React
+  - TypeScript
+  - CSS Modules
+  - Vite
+  - React Router DOM
+  - React Icons
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Estrutura do Projeto
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+frontend/
+├── public/          # Arquivos estáticos
+├── src/
+│   ├── components/  # Componentes reutilizáveis
+│   ├── pages/       # Páginas da aplicação
+│   ├── assets/      # Recursos (imagens, fontes, etc)
+│   └── App.tsx      # Componente principal
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌟 Projetos em Destaque
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### AportVest
+- Plataforma de investimentos com recomendações personalizadas
+- Tecnologias: Laravel, React, TypeScript, Node.js, Vercel
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Super Mario Bros Web
+- Recriação do clássico jogo para navegadores
+- Tecnologias: JavaScript, HTML Canvas, CSS
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/KauaKlein/portfolio.git
 ```
+
+2. Instale as dependências:
+```bash
+cd portfolio/frontend
+npm install
+```
+
+3. Execute o projeto:
+```bash
+npm run dev
+```
+
+4. Acesse `http://localhost:5173` no seu navegador
+
+## 📱 Responsividade
+
+O portfólio é totalmente responsivo, adaptando-se a:
+- Desktops (1200px+)
+- Tablets (768px - 1199px)
+- Smartphones (até 767px)
+
+## 🎨 Paleta de Cores
+
+- **Preto Principal**: #0a0a0a
+- **Preto Secundário**: #121212
+- **Vermelho Primário**: #a50f0f
+- **Vermelho Destaque**: #ff3333
+- **Texto**: #ffffff, #cccccc
+
+## 📬 Contato
+
+- GitHub: [@KauaKlein](https://github.com/KauaKlein)
+- LinkedIn: [Kauã Klein](https://www.linkedin.com/in/kauã-klein-3a461524a/)
+
+
+Desenvolvido com por Kauã Klein
