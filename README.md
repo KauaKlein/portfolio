@@ -1,5 +1,5 @@
 # Portfólio - Kauã Klein
-# ACESSE HOSPEDADO JÁ: https://portfolioo-nine-phi.vercel.app/
+# ACESSE HOSPEDADO JÁ: 
 
 ## 🚀 Sobre o Projeto
 
